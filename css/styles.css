@@ -1,27 +1,42 @@
 body {
-    background-color: rgb(26, 26, 32);
+    background-color: rgba(99, 50, 31, 0.603);
     color: rgb(221, 221, 221);
+    width: 90%;
+    margin-left: 5%;
 }
 
 img {
     height: auto;
     width: 60%;
     margin-left: 20%;
+    margin-bottom: 30px;
 }
 
 h1 {
     text-align: center;
     font-size: 48px;
+    color:rgb(235, 216, 193)
 }
 
 h2 {
     font-size: 32px;
 }
 
-ul > * {
-    margin-top: 4px;
+.recipe-list {
+    margin-top: 6px;
+    color:rgb(218, 201, 180);
 }
 
 li a { 
-    color: rgb(35, 35, 243)
+    color: rgb(35, 49, 243);
+    font-weight: bold;
 }
+
+h1.recipe-title {
+    font-family: 'Playfair Display', serif;
+}
+
+body > * {
+    font-family: 'Montserrat', sans-serif;
+}   
+
